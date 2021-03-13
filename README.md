@@ -4,6 +4,7 @@
 
 # Redbox-Casper ( WORK IN PROGRESS )
  
+ <!--
 This is just a skeleton for my php packages.
 
 ## installation 
@@ -13,3 +14,4 @@ $ composer create-project -sdev redbox/redbox-package-skeleton ./skel/
 ```
 
 
+-->
