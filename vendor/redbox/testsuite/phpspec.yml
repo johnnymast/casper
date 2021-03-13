@@ -1,0 +1,6 @@
+
+#bootstrap: spec/Assets/TestClasses.php
+suites:
+  testsuite_core:
+      namespace: Redbox\Testsuite
+      psr4_prefix: Redbox\Testsuite

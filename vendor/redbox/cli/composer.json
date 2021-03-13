@@ -1,0 +1,46 @@
+{
+  "name": "redbox/cli",
+  "description": "Simple cli argument parser written in and for PHP.",
+  "keywords": [
+    "CLI",
+    "Command Line Interface",
+    "Parser",
+    "Deamon tool",
+    "CLI helper",
+    "CLI parser"
+  ],
+  "homepage": "https://github.com/johnnymast/redbox-cli",
+  "support": {
+    "issues": "https://github.com/johnnymast/redbox-cli/issues",
+    "email": "mastjohnny@gmail.com"
+  },
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johnny Mast",
+      "email": "mastjohnny@gmail.com",
+      "homepage": "https://github.com/johnnymast",
+      "role": "lead"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Redbox\\Cli\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Redbox\\Cli\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}

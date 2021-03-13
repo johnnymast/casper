@@ -1,0 +1,6 @@
+vendor
+.idea
+index.php
+index_bk.php
+composer.lock
+

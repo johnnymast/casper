@@ -1,0 +1,21 @@
+{
+  "name": "redbox/casper",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johnny Mast",
+      "email": "mastjohnny@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Redbox\\Casper\\": "src/"
+    }
+  },
+  "require": {
+    "redbox/cli": "^1.2",
+    "redbox/testsuite": "^2.0"
+  }
+}

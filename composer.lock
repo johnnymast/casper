@@ -1,0 +1,131 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f0eeabe2b1e4b6150f4f924ad9abb997",
+    "packages": [
+        {
+            "name": "redbox/cli",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnnymast/redbox-cli.git",
+                "reference": "b896997bb0180dbbd090f2b86763e6b2ec1a52db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnnymast/redbox-cli/zipball/b896997bb0180dbbd090f2b86763e6b2ec1a52db",
+                "reference": "b896997bb0180dbbd090f2b86763e6b2ec1a52db",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Redbox\\Cli\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johnny Mast",
+                    "email": "mastjohnny@gmail.com",
+                    "homepage": "https://github.com/johnnymast",
+                    "role": "lead"
+                }
+            ],
+            "description": "Simple cli argument parser written in and for PHP.",
+            "homepage": "https://github.com/johnnymast/redbox-cli",
+            "keywords": [
+                "CLI helper",
+                "CLI parser",
+                "Deamon tool",
+                "cli",
+                "command line interface",
+                "parser"
+            ],
+            "support": {
+                "email": "mastjohnny@gmail.com",
+                "issues": "https://github.com/johnnymast/redbox-cli/issues",
+                "source": "https://github.com/johnnymast/redbox-cli/tree/release/1.2.1"
+            },
+            "time": "2018-10-30T13:05:16+00:00"
+        },
+        {
+            "name": "redbox/testsuite",
+            "version": "v2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnnymast/redbox-testsuite.git",
+                "reference": "f11924ae0fefc562a193752d4310841c68187d39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnnymast/redbox-testsuite/zipball/f11924ae0fefc562a193752d4310841c68187d39",
+                "reference": "f11924ae0fefc562a193752d4310841c68187d39",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">= 7.4"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^7.0",
+                "phpspec/prophecy": "^1.12",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Redbox\\Testsuite\\": "src/",
+                    "Redbox\\Testsuite\\Tests\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Johnny Mast",
+                    "email": "mastjohnny@gmail.com"
+                }
+            ],
+            "description": "Redbox-Testsuite allows you to batch process student like tests in a Suite of tests and collect the results.",
+            "support": {
+                "issues": "https://github.com/johnnymast/redbox-testsuite/issues",
+                "source": "https://github.com/johnnymast/redbox-testsuite/tree/v2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/johnnymast",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/johnnymast",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-03-13T19:02:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
